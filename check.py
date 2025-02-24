@@ -17,7 +17,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-token = '8003363352:AAHobZKDZjhzDDIELmLqUWa5ZzpkiTs1VeE'
 bot = telebot.TeleBot(token)
 users, last_update_time, images, cache = set(), None, {'day': None, 'week': None, 'month': None}, {'day': None, 'week': None, 'month': None}
 
